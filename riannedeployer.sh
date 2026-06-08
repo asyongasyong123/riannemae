@@ -30,7 +30,7 @@ RAND=$(openssl rand -hex 3)
 
 CLOUD_RUN_SERVICE_NAME="riannemae-$RAND"
 
-DOMAIN="google.com.app"
+DOMAIN="www.google.com"
 
 BUILD_DIR=$(mktemp -d)
 
